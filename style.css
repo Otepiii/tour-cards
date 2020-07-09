@@ -1,0 +1,71 @@
+body {
+  background-color: #777;
+}
+
+.card-container {
+  display: grid;
+  grid-gap: 5rem;
+  flex-direction: column;
+  grid-template-columns: repeat(2, 1fr);
+  color: #ffffff;
+}
+
+.card {
+  height: 50vh;
+  width: 100%;
+  background-color: #ffffff;
+  border-radius: 8px;
+  justify-content: center;
+  text-align: center;
+  align-items: center;
+}
+
+.card-header:nth-child(1) {
+  background: url("img/lightscape-LtnPejWDSAY-unsplash.jpg");
+  height: 35%;
+  background-position: top center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding: 1px;
+  border-radius: 5px 5px 0 0;
+}
+
+.card-header :nth-child(2) {
+  background: url("img/subtle_white_mini_waves.png");
+  height: 35%;
+  background-position: top center;
+  background-repeat: no-repeat;
+  background-size: contain;
+  padding: 1px;
+  border-radius: 5px 5px 0 0;
+}
+
+a {
+  text-decoration: none;
+  background-color: rgb(175, 175, 175);
+  padding: 0.8rem;
+  border-radius: 1.8rem;
+  color: #ffff;
+  font-size: 1rem;
+  margin-top: 15px;
+}
+
+.duration {
+  margin-top: 1rem;
+  color: rgb(73, 94, 160);
+}
+
+.months {
+  color: rgb(146, 143, 143);
+}
+
+.tour {
+  margin-top: 1.4rem;
+  font-size: 1.5rem;
+  color: rgb(58, 119, 121);
+}
+
+.map {
+  margin-top: 1.7rem;
+  color: #ad5830;
+}
