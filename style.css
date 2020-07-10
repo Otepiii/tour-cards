@@ -30,7 +30,7 @@ body {
   border-radius: 5px 5px 0 0;
 }
 
-.card-header :nth-child(2) {
+.card-header .card:nth-child(2) {
   background: url("img/subtle_white_mini_waves.png");
   height: 35%;
   background-position: top center;
